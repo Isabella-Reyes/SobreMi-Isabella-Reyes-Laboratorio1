@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Raleway', sans-serif; 
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+
+}
+
+.hero {height: 100vh;
+/*Fondo de imagen*/
+background-image: url('img.jpg');
+background-size: cover;
+background-position: center;
+/*iniciamos con flex*/
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-wrap:wrap;}
+
+.titulo {
+    color: black;
+    width: 500px;
+    text-align: center;
+}
+
+.descripcion {
+    color: black;
+    width: 500px;
+    border: 1px solid #fff;
+    padding: 15px;
+    border-radius: 5px 20px;
+    text-align: center;
+}
+
+.titulo h2{font-size: 100px;
+padding: 10px;}
+
+h3 {font-size: 70px;
+    background-color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4a199;
+
+}
+
+h3{font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color:#ce897b ;}
+
+h4{font-size: 50px;
+    text-align: center; 
+    padding: 30px;
+ background-color: #9e4244;}
+
+h5{font-size: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color: #fc4c4e;
+}
+
+.sobremi {list-style: none;
+display: inline-block;}
+
+img{width: 700px;
+height: 400px;}
